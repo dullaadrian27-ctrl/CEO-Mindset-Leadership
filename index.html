@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Section 06 — CEO Mindset + Leadership | CEO Table Resource Library</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+:root{--pd:#3C3489;--pm:#6B68B8;--p:#9895D3;--pl:#EEEDFE;--g:#D09963;--gl:#FAF3E8;--gd:#A8742D;--w:#FFFFFF;--off:#F8F7FF;--ch:#2D2B3D;--gr:#6B6B8A;--lgt:#E8E7F5;--grn:#0F6E56;--grnl:#E1F5EE;--red:#B03030;--redl:#FFF0F0;--fd:'Playfair Display',serif;--fb:'DM Sans',sans-serif;--r:12px;--rs:8px;}
+*{box-sizing:border-box;margin:0;padding:0;}html{scroll-behavior:smooth;}body{font-family:var(--fb);background:var(--off);color:var(--ch);line-height:1.65;}
+.bar{position:sticky;top:0;z-index:200;background:var(--pd);padding:.65rem 2rem;display:flex;align-items:center;justify-content:space-between;box-shadow:0 2px 20px rgba(60,52,137,.4);}
+.bar-brand{font-family:var(--fd);font-style:italic;color:var(--w);font-size:1rem;}.bar-brand span{color:var(--g);}
+.bar-r{display:flex;align-items:center;gap:.65rem;}
+.bar-prog{background:rgba(255,255,255,.1);border-radius:20px;padding:.28rem .8rem;font-size:.72rem;color:var(--w);font-weight:500;}.bar-prog strong{color:var(--g);}
+.btn-pdf{background:var(--g);color:var(--pd);border:none;border-radius:var(--rs);padding:.38rem .85rem;font-family:var(--fb);font-size:.74rem;font-weight:600;cursor:pointer;}.btn-pdf:hover{background:var(--gd);color:var(--w);}
+.hero{background:linear-gradient(135deg,var(--pd) 0%,var(--pm) 55%,var(--p) 100%);padding:3rem 2rem 2.5rem;text-align:center;position:relative;overflow:hidden;}
+.hero::before{content:'';position:absolute;top:-80px;right:-60px;width:300px;height:300px;background:radial-gradient(circle,rgba(208,153,99,.18) 0%,transparent 70%);pointer-events:none;}
+.h-eye{font-size:.67rem;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--g);margin-bottom:.55rem;}
+.h-title{font-family:var(--fd);font-style:italic;font-size:clamp(1.8rem,4vw,2.6rem);color:var(--w);line-height:1.2;margin-bottom:.55rem;}.h-title em{font-style:normal;color:var(--g);}
+.h-sub{font-size:.88rem;color:rgba(255,255,255,.7);max-width:520px;margin:0 auto 1.75rem;line-height:1.7;}
+.op-wrap{max-width:420px;margin:0 auto;}.op-row{display:flex;justify-content:space-between;font-size:.72rem;color:rgba(255,255,255,.6);margin-bottom:.4rem;}.op-row strong{color:var(--g);}
+.op-track{height:5px;background:rgba(255,255,255,.15);border-radius:10px;overflow:hidden;}.op-fill{height:100%;background:linear-gradient(90deg,var(--g),#F0C080);border-radius:10px;transition:width .5s;width:0%;}
+.nav-tabs{background:var(--w);border-bottom:2px solid var(--lgt);display:flex;overflow-x:auto;padding:0 1.5rem;position:sticky;top:52px;z-index:100;}
+.nav-tab{flex-shrink:0;padding:.85rem 1.1rem;font-size:.78rem;font-weight:500;color:var(--gr);border-bottom:2.5px solid transparent;cursor:pointer;transition:all .2s;white-space:nowrap;display:flex;align-items:center;gap:.4rem;}
+.nav-tab:hover{color:var(--pd);}.nav-tab.active{color:var(--pd);border-bottom-color:var(--pd);font-weight:600;}
+.nt-num{width:18px;height:18px;border-radius:50%;background:var(--pl);color:var(--pd);font-size:.62rem;font-weight:700;display:flex;align-items:center;justify-content:center;}
+.wrap{max-width:860px;margin:0 auto;padding:2rem 1.5rem 4rem;}.panel{display:none;}.panel.active{display:block;}
+.rc{background:var(--w);border-radius:var(--r);border:1px solid var(--lgt);box-shadow:0 2px 12px rgba(60,52,137,.06);margin-bottom:2rem;overflow:hidden;}
+.rch{background:var(--pl);padding:1.1rem 1.5rem;display:flex;align-items:flex-start;justify-content:space-between;gap:1rem;border-bottom:1px solid var(--lgt);}
+.rch-eye{font-size:.62rem;font-weight:600;letter-spacing:.15em;text-transform:uppercase;color:var(--p);margin-bottom:3px;}
+.rch-title{font-family:var(--fd);font-size:1.2rem;font-weight:600;color:var(--pd);}
+.rch-desc{font-size:.82rem;color:var(--gr);margin-top:4px;line-height:1.5;}
+.rch-tag{flex-shrink:0;font-size:.62rem;font-weight:600;padding:3px 10px;border-radius:20px;background:var(--grnl);color:var(--grn);letter-spacing:.05em;text-transform:uppercase;white-space:nowrap;}
+.lav{background:var(--pl);padding:.5rem 1.5rem;font-size:.64rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--pd);border-top:1px solid var(--lgt);}
+.rcb{padding:1.5rem;}
+.callout{border:1.5px solid var(--g);border-radius:var(--rs);background:var(--gl);padding:.85rem 1.1rem;margin-bottom:1.1rem;}
+.cl{font-size:.62rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--gd);margin-bottom:3px;}
+.callout p{font-size:.83rem;color:var(--gd);line-height:1.6;}
+.quote{background:var(--pd);border-radius:var(--rs);padding:1rem 1.25rem;margin-bottom:1.1rem;}
+.quote p{font-family:var(--fd);font-style:italic;color:var(--w);font-size:.9rem;line-height:1.6;}
+.qa{margin-top:.38rem;font-size:.63rem;color:var(--g);font-weight:600;}
+.fg{margin-bottom:1rem;}.fl{font-size:.66rem;font-weight:600;letter-spacing:.11em;text-transform:uppercase;color:var(--p);display:block;margin-bottom:.35rem;}
+.fi,.ta{width:100%;border:1.5px solid var(--lgt);border-radius:var(--rs);padding:.5rem .8rem;font-family:var(--fb);font-size:.85rem;color:var(--ch);background:var(--off);outline:none;transition:all .2s;}
+.fi:focus,.ta:focus{border-color:var(--p);box-shadow:0 0 0 3px rgba(152,149,211,.14);background:var(--w);}
+.fi::placeholder,.ta::placeholder{color:#C0BEE0;}.ta{resize:vertical;min-height:52px;}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:1rem;}.three{display:grid;grid-template-columns:1fr 1fr 1fr;gap:.75rem;}
+/* reflection prompts */
+.reflect-card{background:var(--off);border-radius:var(--rs);padding:1.1rem;border:1px solid var(--lgt);margin-bottom:.75rem;}
+.reflect-num{font-size:.62rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--p);margin-bottom:.35rem;}
+.reflect-q{font-size:.92rem;font-weight:600;color:var(--ch);margin-bottom:.55rem;line-height:1.4;}
+/* delegation matrix */
+.del-matrix{display:grid;grid-template-columns:1fr 1fr;gap:0;border:1px solid var(--lgt);border-radius:var(--rs);overflow:hidden;margin-bottom:1.25rem;}
+.dm-cell{padding:1rem;border-right:1px solid var(--lgt);border-bottom:1px solid var(--lgt);}
+.dm-cell:nth-child(2n){border-right:none;}
+.dm-cell:nth-last-child(-n+2){border-bottom:none;}
+.dm-label{font-size:.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;margin-bottom:.35rem;}
+/* energy audit */
+.energy-row{display:flex;align-items:center;gap:.75rem;padding:.6rem .75rem;border-bottom:1px solid var(--lgt);}
+.energy-row:last-child{border-bottom:none;}
+.er-task{flex:1;font-size:.84rem;}
+.er-btns{display:flex;gap:.35rem;}
+.er-btn{font-size:.72rem;font-weight:600;padding:.28rem .65rem;border-radius:20px;border:1.5px solid var(--lgt);background:var(--w);cursor:pointer;transition:all .2s;color:var(--gr);}
+.er-btn:hover{border-color:var(--p);}
+.er-btn.fills{background:var(--grnl);border-color:var(--grn);color:var(--grn);}
+.er-btn.drains{background:var(--redl);border-color:var(--red);color:var(--red);}
+.er-btn.neutral{background:var(--ambl);border-color:#C07820;color:#C07820;}
+/* ceo identity */
+.identity-block{background:linear-gradient(135deg,var(--pd),var(--pm));border-radius:var(--rs);padding:1.25rem;margin-bottom:.75rem;}
+.ib-prompt{font-size:.82rem;color:rgba(255,255,255,.65);margin-bottom:.5rem;}
+.ib-input{width:100%;border:none;border-bottom:1.5px solid rgba(255,255,255,.25);background:transparent;font-family:var(--fd);font-style:italic;font-size:1.05rem;color:var(--w);outline:none;padding:.3rem 0;}
+.ib-input::placeholder{color:rgba(255,255,255,.3);}
+/* boundary tracker */
+.boundary-row{display:flex;align-items:center;gap:.75rem;padding:.65rem .75rem;border-bottom:1px solid var(--lgt);background:var(--off);border-radius:0;}
+.br-label{flex:1;font-size:.84rem;font-weight:500;}
+.br-status{display:flex;gap:.35rem;}
+.br-btn{font-size:.7rem;font-weight:600;padding:.25rem .6rem;border-radius:20px;border:1.5px solid var(--lgt);background:var(--w);cursor:pointer;transition:all .2s;color:var(--gr);}
+.br-btn.holding{background:var(--grnl);border-color:var(--grn);color:var(--grn);}
+.br-btn.slipping{background:var(--redl);border-color:var(--red);color:var(--red);}
+.toast{position:fixed;bottom:1.5rem;right:1.5rem;background:var(--grn);color:var(--w);font-size:.78rem;font-weight:600;padding:.55rem 1.1rem;border-radius:20px;opacity:0;transform:translateY(8px);transition:all .3s;pointer-events:none;z-index:999;}.toast.show{opacity:1;transform:translateY(0);}
+footer{background:var(--pd);text-align:center;padding:1.1rem;font-size:.7rem;color:rgba(255,255,255,.4);}footer a{color:var(--g);text-decoration:none;}
+@media print{.bar,.nav-tabs,.btn-pdf,.toast{display:none!important;}.panel{display:block!important;}.hero{background:var(--pd)!important;-webkit-print-color-adjust:exact;print-color-adjust:exact;}}
+@media(max-width:580px){.two,.three,.del-matrix{grid-template-columns:1fr;}.wrap{padding:1.25rem 1rem 3rem;}}
+</style>
+</head>
+<body>
+<header class="bar">
+  <div class="bar-brand">Consulting with <span>AJR</span></div>
+  <div class="bar-r">
+    <div class="bar-prog">Progress: <strong id="hdr-pct">0%</strong></div>
+    <button class="btn-pdf" onclick="window.print()">⬇ Save PDF</button>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="h-eye">CEO Table · Resource Library · Section 06</div>
+  <h1 class="h-title">CEO Mindset +<br><em>Leadership</em></h1>
+  <p class="h-sub">Reflection tools, delegation frameworks, and the identity work that makes every other section possible. You cannot build a CEO-level business from an operator's mindset. This section closes that gap.</p>
+  <div class="op-wrap">
+    <div class="op-row"><span>Section completion</span><strong id="op-count">0 of 3 resources</strong></div>
+    <div class="op-track"><div class="op-fill" id="op-fill"></div></div>
+  </div>
+</section>
+
+<nav class="nav-tabs">
+  <div class="nav-tab active" onclick="show(0)"><span class="nt-num">1</span>CEO Identity + Reflection</div>
+  <div class="nav-tab" onclick="show(1)"><span class="nt-num">2</span>Delegation Framework</div>
+  <div class="nav-tab" onclick="show(2)"><span class="nt-num">3</span>Boundaries + Sustainability</div>
+</nav>
+
+<main class="wrap">
+
+<!-- RESOURCE 1: CEO IDENTITY + REFLECTION -->
+<div class="panel active" id="p0">
+<div class="rc">
+  <div class="rch">
+    <div><div class="rch-eye">Resource 6.1 · CEO Mindset + Leadership</div><div class="rch-title">CEO Identity + Quarterly Reflection</div><div class="rch-desc">Clarify who you are as a leader, what you stand for, and where you are in your transition from operator to CEO. Do this at the start of every quarter.</div></div>
+    <div class="rch-tag">Quarterly</div>
+  </div>
+  <div class="rcb">
+    <div class="quote"><p>"The biggest shift you will make in your business is not a system. It is a decision about who you are. The CEO who knows her identity makes different decisions than the one who is still figuring out if she deserves to be in the room."</p><div class="qa">— Aliya Johnson-Roberts, AJR Consulting</div></div>
+
+    <div class="lav" style="margin:0 -1.5rem 1.25rem;padding-left:1.5rem;">Part 1 — Your CEO Identity Statement</div>
+    <div class="callout"><div class="cl">What this is for</div><p>Your CEO Identity Statement is not a bio. It is an internal declaration — the thing you say to yourself when imposter syndrome shows up, when a staff crisis makes you question your ability to lead, or when you need to remember why you built this. Write it for yourself, not for anyone else.</p></div>
+
+    <div class="identity-block">
+      <div class="ib-prompt">I am a CEO who...</div>
+      <input class="ib-input" type="text" placeholder="builds systems that hold without me..." data-key="id-am1">
+    </div>
+    <div class="identity-block">
+      <div class="ib-prompt">I lead from...</div>
+      <input class="ib-input" type="text" placeholder="a place of clarity, not fear..." data-key="id-from">
+    </div>
+    <div class="identity-block">
+      <div class="ib-prompt">My program exists because...</div>
+      <input class="ib-input" type="text" placeholder="I believe every child deserves..." data-key="id-exists">
+    </div>
+    <div class="identity-block">
+      <div class="ib-prompt">The legacy I am building is...</div>
+      <input class="ib-input" type="text" placeholder="a business that outlasts my daily presence..." data-key="id-legacy">
+    </div>
+    <div class="identity-block">
+      <div class="ib-prompt">I know I am stepping into my CEO seat when I...</div>
+      <input class="ib-input" type="text" placeholder="make decisions based on data instead of panic..." data-key="id-ceo">
+    </div>
+
+    <div class="lav" style="margin:1rem -1.5rem 1.25rem;padding-left:1.5rem;">Part 2 — Where Am I in the Operator-to-CEO Transition?</div>
+    <div class="callout"><div class="cl">The spectrum</div><p><strong>Operator:</strong> In every room, solving every problem, unable to leave for a day without things falling apart. Doing the work of 5 people because it's easier than trusting the system.<br><strong>CEO:</strong> Leading through people, systems, and strategy. Present and intentional — but not in every crisis. The business runs because of what she built, not because of where she is standing.</p></div>
+    <div class="fg"><label class="fl">Where I am right now on the operator-to-CEO spectrum (honestly)</label><input type="range" min="1" max="10" value="5" id="op-ceo-slider" oninput="updateSlider()" style="width:100%;accent-color:var(--p);" data-key="id-spectrum"><div id="slider-label" style="text-align:center;font-size:.82rem;color:var(--pd);font-weight:600;margin-top:.35rem;">5 — Somewhere in the middle</div></div>
+    <div class="fg"><label class="fl">What that position looks like in my daily life right now</label><textarea class="ta" placeholder="Be specific. What decisions are you still making that should be someone else's? What are you still physically doing that should be systematized or delegated?" data-key="id-daily"></textarea></div>
+    <div class="fg"><label class="fl">The one thing keeping me most in operator mode right now</label><textarea class="ta" placeholder="Be honest. Is it trust? Is it the cost of hiring? Is it that the system doesn't exist yet? Is it your own identity as 'the one who does everything'? Name it." data-key="id-stuck"></textarea></div>
+
+    <div class="lav" style="margin:0 -1.5rem 1.25rem;padding-left:1.5rem;">Part 3 — Quarterly CEO Reflection (Complete at End of Quarter)</div>
+
+    <div class="reflect-card">
+      <div class="reflect-num">Reflection 01</div>
+      <div class="reflect-q">What was my single biggest win as a CEO this quarter — not as an operator, but as a leader?</div>
+      <textarea class="ta" placeholder="Not 'we got through it.' What did you decide, build, or lead that moved this business forward?" data-key="ref-q1"></textarea>
+    </div>
+    <div class="reflect-card">
+      <div class="reflect-num">Reflection 02</div>
+      <div class="reflect-q">What was the hardest leadership decision I made this quarter, and what did it teach me?</div>
+      <textarea class="ta" placeholder="A difficult hire, a difficult termination, a pivot in strategy, a boundary you held..." data-key="ref-q2"></textarea>
+    </div>
+    <div class="reflect-card">
+      <div class="reflect-num">Reflection 03</div>
+      <div class="reflect-q">Where did I lead from fear instead of clarity this quarter?</div>
+      <textarea class="ta" placeholder="Where did you avoid a conversation, delay a decision, or react instead of respond? No judgment — just data." data-key="ref-q3"></textarea>
+    </div>
+    <div class="reflect-card">
+      <div class="reflect-num">Reflection 04</div>
+      <div class="reflect-q">What did I learn about myself as a leader this quarter that I did not know before?</div>
+      <textarea class="ta" placeholder="This is the question most people skip. Don't skip it." data-key="ref-q4"></textarea>
+    </div>
+    <div class="reflect-card">
+      <div class="reflect-num">Reflection 05</div>
+      <div class="reflect-q">What is the ONE thing I am committed to as a CEO in the next quarter that will change my business the most?</div>
+      <textarea class="ta" placeholder="Not a list. One thing. The most important one. Name it and own it." data-key="ref-q5"></textarea>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- RESOURCE 2: DELEGATION FRAMEWORK -->
+<div class="panel" id="p1">
+<div class="rc">
+  <div class="rch">
+    <div><div class="rch-eye">Resource 6.2 · CEO Mindset + Leadership</div><div class="rch-title">Delegation Framework</div><div class="rch-desc">Figure out what only you can do, what someone else should be doing, and how to transfer it without chaos. Delegation is a skill — not a dump.</div></div>
+    <div class="rch-tag">Ongoing</div>
+  </div>
+  <div class="rcb">
+    <div class="quote"><p>"Delegation is not giving someone a task and hoping they figure it out. It is transferring ownership — which means transferring the context, the authority, and the accountability. Learn the difference and your calendar changes overnight."</p><div class="qa">— Aliya Johnson-Roberts, AJR Consulting</div></div>
+
+    <div class="lav" style="margin:0 -1.5rem 1.25rem;padding-left:1.5rem;">Step 1 — Energy Audit: What's on Your Plate Right Now?</div>
+    <div class="callout"><div class="cl">Instructions</div><p>List every recurring task or responsibility that lands on your desk. Then rate each one: Does it fill your energy or drain it? Should only you be doing it, or could someone else handle it? The answers reveal your delegation roadmap.</p></div>
+
+    <div style="border:1px solid var(--lgt);border-radius:var(--rs);overflow:hidden;margin-bottom:1.25rem;">
+      <div style="background:var(--pd);padding:.55rem .75rem;display:grid;grid-template-columns:2fr 1fr 1fr;gap:.5rem;">
+        <div style="font-size:.7rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--w);">Task / Responsibility</div>
+        <div style="font-size:.7rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--g);">Energy</div>
+        <div style="font-size:.7rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--g);">Only Me?</div>
+      </div>
+      <div id="energy-list"></div>
+    </div>
+    <div class="fg"><label class="fl">Add a task I didn't see on the list above</label><input class="fi" type="text" placeholder="Another recurring responsibility I carry..." data-key="del-extra"></div>
+
+    <div class="lav" style="margin:0 -1.5rem 1.25rem;padding-left:1.5rem;">Step 2 — The Delegation Matrix</div>
+    <div class="del-matrix">
+      <div class="dm-cell">
+        <div class="dm-label" style="color:var(--red);">🔴 High Drain · Not Only Me</div>
+        <div style="font-size:.78rem;color:var(--gr);margin-bottom:.5rem;">Delegate immediately. These are tasks draining your energy that someone else can do.</div>
+        <textarea class="ta" style="min-height:80px;" placeholder="List them here — these go first." data-key="del-m1"></textarea>
+      </div>
+      <div class="dm-cell" style="border-right:none;">
+        <div class="dm-label" style="color:var(--amb,#C07820);">🟡 Low Drain · Not Only Me</div>
+        <div style="font-size:.78rem;color:var(--gr);margin-bottom:.5rem;">Systematize or delegate next. Doesn't cost you much, but shouldn't be yours.</div>
+        <textarea class="ta" style="min-height:80px;" placeholder="List them — these get a process or a person." data-key="del-m2"></textarea>
+      </div>
+      <div class="dm-cell" style="border-bottom:none;">
+        <div class="dm-label" style="color:var(--grn);">🟢 High Energy · Only Me</div>
+        <div style="font-size:.78rem;color:var(--gr);margin-bottom:.5rem;">Protect this time. These are in your zone of genius — don't let them get crowded out.</div>
+        <textarea class="ta" style="min-height:80px;" placeholder="Protect these. Schedule them first." data-key="del-m3"></textarea>
+      </div>
+      <div class="dm-cell" style="border-right:none;border-bottom:none;">
+        <div class="dm-label" style="color:var(--p);">🔵 Low Energy · Only Me</div>
+        <div style="font-size:.78rem;color:var(--gr);margin-bottom:.5rem;">For now, these stay with you — but build toward training someone or building a system.</div>
+        <textarea class="ta" style="min-height:80px;" placeholder="These need systems — eventually." data-key="del-m4"></textarea>
+      </div>
+    </div>
+
+    <div class="lav" style="margin:0 -1.5rem 1.25rem;padding-left:1.5rem;">Step 3 — Delegation Action Plan</div>
+    <div class="callout"><div class="cl">How to delegate properly — 5 elements</div><p><strong>1. What:</strong> Exactly what is being transferred (be specific).<br><strong>2. Why:</strong> Context — why this matters and how it connects to the bigger picture.<br><strong>3. How:</strong> The process, the standard, the SOP they should follow.<br><strong>4. By when:</strong> Clear deadline or recurring schedule.<br><strong>5. Authority:</strong> What decisions can they make? What escalates to you?</p></div>
+
+    <div style="display:flex;flex-direction:column;gap:.85rem;margin-bottom:1.25rem;">
+      <div style="background:var(--off);border-radius:var(--rs);padding:1rem;border:1px solid var(--lgt);">
+        <div style="font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--pd);margin-bottom:.65rem;">Delegation #1 — Top Priority</div>
+        <div class="three" style="gap:.65rem;">
+          <div class="fg" style="margin:0;"><label class="fl">Task being delegated</label><input class="fi" type="text" placeholder="Specific task" data-key="da1-task"></div>
+          <div class="fg" style="margin:0;"><label class="fl">Delegating to</label><input class="fi" type="text" placeholder="Name / role" data-key="da1-to"></div>
+          <div class="fg" style="margin:0;"><label class="fl">Start date</label><input class="fi" type="text" placeholder="e.g. July 14" data-key="da1-date"></div>
+        </div>
+        <div class="fg" style="margin-bottom:.5rem;"><label class="fl">What they need to know + their authority level</label><textarea class="ta" style="min-height:48px;" placeholder="What context, process, and decision-making power are you transferring?" data-key="da1-context"></textarea></div>
+        <div class="fg" style="margin:0;"><label class="fl">How I will check in on this without micromanaging</label><input class="fi" type="text" placeholder="e.g. Weekly 10-min status update every Monday. I review output bi-weekly." data-key="da1-checkin"></div>
+      </div>
+      <div style="background:var(--off);border-radius:var(--rs);padding:1rem;border:1px solid var(--lgt);">
+        <div style="font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--pd);margin-bottom:.65rem;">Delegation #2</div>
+        <div class="three" style="gap:.65rem;">
+          <div class="fg" style="margin:0;"><label class="fl">Task</label><input class="fi" type="text" placeholder="Specific task" data-key="da2-task"></div>
+          <div class="fg" style="margin:0;"><label class="fl">To</label><input class="fi" type="text" placeholder="Name / role" data-key="da2-to"></div>
+          <div class="fg" style="margin:0;"><label class="fl">Date</label><input class="fi" type="text" placeholder="e.g. July 21" data-key="da2-date"></div>
+        </div>
+        <div class="fg" style="margin:0;"><label class="fl">Context + authority</label><textarea class="ta" style="min-height:48px;" data-key="da2-context"></textarea></div>
+      </div>
+      <div style="background:var(--off);border-radius:var(--rs);padding:1rem;border:1px solid var(--lgt);">
+        <div style="font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--pd);margin-bottom:.65rem;">Delegation #3</div>
+        <div class="three" style="gap:.65rem;">
+          <div class="fg" style="margin:0;"><label class="fl">Task</label><input class="fi" type="text" placeholder="Specific task" data-key="da3-task"></div>
+          <div class="fg" style="margin:0;"><label class="fl">To</label><input class="fi" type="text" placeholder="Name / role" data-key="da3-to"></div>
+          <div class="fg" style="margin:0;"><label class="fl">Date</label><input class="fi" type="text" placeholder="e.g. August 1" data-key="da3-date"></div>
+        </div>
+        <div class="fg" style="margin:0;"><label class="fl">Context + authority</label><textarea class="ta" style="min-height:48px;" data-key="da3-context"></textarea></div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- RESOURCE 3: BOUNDARIES + SUSTAINABILITY -->
+<div class="panel" id="p2">
+<div class="rc">
+  <div class="rch">
+    <div><div class="rch-eye">Resource 6.3 · CEO Mindset + Leadership</div><div class="rch-title">Boundaries + Sustainability Audit</div><div class="rch-desc">The CEO who cannot sustain herself cannot sustain her business. This tool makes your non-negotiables visible — and holds you accountable to them.</div></div>
+    <div class="rch-tag">Monthly</div>
+  </div>
+  <div class="rcb">
+    <div class="quote"><p>"You are the most important system in your business. If you break down, every other system breaks with you. Protecting yourself is not selfish — it is the most strategic thing you can do for the people depending on you."</p><div class="qa">— Aliya Johnson-Roberts, AJR Consulting</div></div>
+
+    <div class="lav" style="margin:0 -1.5rem 1.25rem;padding-left:1.5rem;">Part 1 — Your Non-Negotiables (Name Them Before They're Negotiated Away)</div>
+    <div class="callout"><div class="cl">What a non-negotiable actually is</div><p>A non-negotiable is not a preference. It is a boundary you hold because violating it costs you more than the short-term discomfort of holding it. Name yours now — while you are clear-headed — so you have something to point to when the pressure comes.</p></div>
+
+    <div style="display:flex;flex-direction:column;gap:.65rem;margin-bottom:1.25rem;">
+      <div style="background:var(--pl);border-radius:var(--rs);padding:.85rem;">
+        <div style="font-size:.65rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--pd);margin-bottom:.4rem;">Physical Health</div>
+        <input class="fi" type="text" placeholder="e.g. I will strength train 3x per week. I will eat a real lunch — sitting down — every workday." data-key="nn-physical" style="background:var(--w);">
+      </div>
+      <div style="background:var(--pl);border-radius:var(--rs);padding:.85rem;">
+        <div style="font-size:.65rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--pd);margin-bottom:.4rem;">Family + Personal Time</div>
+        <input class="fi" type="text" placeholder="e.g. No work calls or emails after 7pm. Full weekends with my family — I am off on Sunday." data-key="nn-family" style="background:var(--w);">
+      </div>
+      <div style="background:var(--pl);border-radius:var(--rs);padding:.85rem;">
+        <div style="font-size:.65rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--pd);margin-bottom:.4rem;">Mental + Emotional Health</div>
+        <input class="fi" type="text" placeholder="e.g. I will not engage in staff drama via text. I take 10 minutes of quiet before I respond to any crisis." data-key="nn-mental" style="background:var(--w);">
+      </div>
+      <div style="background:var(--pl);border-radius:var(--rs);padding:.85rem;">
+        <div style="font-size:.65rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--pd);margin-bottom:.4rem;">Professional + Financial</div>
+        <input class="fi" type="text" placeholder="e.g. I will pay myself a consistent owner draw every pay period — no exceptions. I will not take on new obligations without reviewing my capacity." data-key="nn-pro" style="background:var(--w);">
+      </div>
+    </div>
+
+    <div class="lav" style="margin:0 -1.5rem 1.25rem;padding-left:1.5rem;">Part 2 — Boundary Check-In (Rate This Month)</div>
+    <div style="border:1px solid var(--lgt);border-radius:var(--rs);overflow:hidden;margin-bottom:1.25rem;">
+      <div style="background:var(--pd);padding:.55rem .75rem;display:grid;grid-template-columns:2fr auto auto;gap:.75rem;"><div style="font-size:.7rem;font-weight:600;color:var(--w);letter-spacing:.1em;text-transform:uppercase;">Boundary</div><div style="font-size:.7rem;font-weight:600;color:var(--g);letter-spacing:.1em;text-transform:uppercase;">Holding</div><div style="font-size:.7rem;font-weight:600;color:var(--g);letter-spacing:.1em;text-transform:uppercase;">Slipping</div></div>
+      <div id="boundary-list"></div>
+    </div>
+
+    <div class="lav" style="margin:0 -1.5rem 1.25rem;padding-left:1.5rem;">Part 3 — CEO Sustainability Check</div>
+
+    <div class="fg"><label class="fl">On a scale of 1–10, how sustainable is my current pace? (1 = burning out, 10 = thriving)</label>
+      <input type="range" min="1" max="10" value="5" id="sustain-slider" oninput="updateSustain()" style="width:100%;accent-color:var(--p);" data-key="sus-score">
+      <div id="sustain-label" style="text-align:center;font-size:.82rem;color:var(--pd);font-weight:600;margin-top:.35rem;">5 — Managing but not thriving</div>
+    </div>
+
+    <div class="fg"><label class="fl">What is the biggest sustainability threat in my life right now?</label><textarea class="ta" placeholder="Be honest. Overwork? Lack of sleep? Staff stress carrying home? Financial anxiety? Isolation? Name the real thing." data-key="sus-threat"></textarea></div>
+    <div class="fg"><label class="fl">One thing I can do this week to protect my sustainability</label><textarea class="ta" placeholder="Specific and small. Not 'take care of myself' — try 'I will not respond to staff texts after 8pm this week, starting tonight.'" data-key="sus-action"></textarea></div>
+
+    <div class="lav" style="margin:0 -1.5rem 1.25rem;padding-left:1.5rem;">Part 4 — CEO Fuel</div>
+    <div class="callout"><div class="cl">What keeps you going</div><p>Know what refuels you before you are running on empty. These are the things you do to come back to yourself — not as a reward, but as a practice.</p></div>
+    <div class="two"><div class="fg"><label class="fl">What fills my energy as a CEO (what refuels me)</label><textarea class="ta" placeholder="e.g. Deep strategy work in the morning before the center opens. Mentoring conversations. Time with my family. Physical training. Learning something new." data-key="fuel-fills"></textarea></div><div class="fg"><label class="fl">Early warning signs that I am depleted (what I notice first)</label><textarea class="ta" placeholder="e.g. I start reacting instead of responding. I avoid hard conversations. I stop planning and just survive the day. I skip workouts. I eat poorly." data-key="fuel-warning"></textarea></div></div>
+    <div class="fg"><label class="fl">The person I call when I need perspective — not validation, perspective</label><input class="fi" type="text" placeholder="Name and relationship. If you don't have this person — make building that relationship a priority." data-key="fuel-person"></textarea></div>
+    <div class="fg"><label class="fl">My commitment to myself as a CEO and a person this quarter</label><textarea class="ta" style="min-height:70px;" placeholder="Write it like you mean it. Not a to-do list — a declaration of how you will show up for yourself and your business in the next 90 days." data-key="sus-commitment"></textarea></div>
+  </div>
+</div>
+</div>
+
+</main>
+<footer>CEO Table Membership · Resource Library · Section 06 · <a href="https://consultingwithajr.com">consultingwithajr.com</a> · © 2026 AJR Consulting</footer>
+<div class="toast" id="toast">✓ Progress saved</div>
+
+<script>
+const ENERGY_TASKS = ['Opening + closing the center daily','Responding to parent inquiries','Touring new families','Enrollment paperwork and contracts','Staff scheduling and coverage calls','Staff performance conversations','Payroll processing','Paying bills and vendor invoices','Ordering supplies','Social media posting','Responding to licensing / compliance questions','Planning staff meetings and agendas','Reporting to funding agencies','Strategic planning and business development'];
+
+const BOUNDARIES = ['No work after my cutoff time','Eating a real lunch every workday','Not covering classrooms as a regular occurrence','Not engaging with staff drama via text or phone after hours','Taking one full day off per week','Consistent owner pay — every payroll period','Not making major decisions in the middle of a crisis','Protecting my planning time from operational interruptions','Weekly CEO time (dashboard, priorities, planning)','Keeping personal and business finances fully separated'];
+
+function buildEnergy(){
+  const container = document.getElementById('energy-list');
+  ENERGY_TASKS.forEach((task,i)=>{
+    const row = document.createElement('div');
+    row.className = 'energy-row';
+    row.style.background = i%2?'rgba(152,149,211,.04)':'var(--w)';
+    row.innerHTML = `<div class="er-task">${task}</div><div class="er-btns"><button class="er-btn" onclick="setEnergy(${i},'fills',this)">Fills</button><button class="er-btn" onclick="setEnergy(${i},'neutral',this)">Neutral</button><button class="er-btn" onclick="setEnergy(${i},'drains',this)">Drains</button></div><div style="width:80px;"><select class="fi" style="padding:.3rem .4rem;font-size:.75rem;" data-key="en-only-${i}" onchange="save()"><option value="">Only me?</option><option>Yes</option><option>No</option><option>Could be</option></select></div>`;
+    container.appendChild(row);
+  });
+}
+
+function setEnergy(idx,type,btn){
+  btn.closest('.er-btns').querySelectorAll('.er-btn').forEach(b=>{b.classList.remove('fills','drains','neutral');});
+  btn.classList.add(type);
+  localStorage.setItem(`ajr-s06-en-${idx}`,type);
+  save();
+}
+
+function buildBoundaries(){
+  const container = document.getElementById('boundary-list');
+  BOUNDARIES.forEach((b,i)=>{
+    const row = document.createElement('div');
+    row.className='boundary-row';
+    row.style.background = i%2?'rgba(152,149,211,.04)':'var(--off)';
+    row.innerHTML=`<div class="br-label">${b}</div><div class="br-status"><button class="br-btn" onclick="setBoundary(${i},'holding',this)">Holding</button><button class="br-btn" onclick="setBoundary(${i},'slipping',this)">Slipping</button></div>`;
+    container.appendChild(row);
+  });
+}
+function setBoundary(idx,type,btn){
+  btn.closest('.br-status').querySelectorAll('.br-btn').forEach(b=>{b.classList.remove('holding','slipping');});
+  btn.classList.add(type);
+  localStorage.setItem(`ajr-s06-br-${idx}`,type);
+  save();
+}
+
+function updateSlider(){
+  const v=document.getElementById('op-ceo-slider')?.value||5;
+  const labels={1:'1 — Full operator, no CEO space',2:'2',3:'3 — Mostly operator',4:'4',5:'5 — Somewhere in the middle',6:'6',7:'7 — Mostly CEO thinking',8:'8',9:'9',10:'10 — Full CEO seat'};
+  document.getElementById('slider-label').textContent=labels[v]||v;
+  save();
+}
+function updateSustain(){
+  const v=document.getElementById('sustain-slider')?.value||5;
+  const labels={1:'1 — Burning out fast',2:'2',3:'3 — Running on empty',4:'4',5:'5 — Managing but not thriving',6:'6',7:'7 — Mostly sustainable',8:'8',9:'9',10:'10 — Thriving, fully sustainable'};
+  document.getElementById('sustain-label').textContent=labels[v]||v;
+  save();
+}
+
+function loadInteractives(){
+  try{
+    ENERGY_TASKS.forEach((_,i)=>{
+      const v=localStorage.getItem(`ajr-s06-en-${i}`);
+      if(v){
+        const row=document.querySelectorAll('#energy-list .energy-row')[i];
+        if(row){const btn=row.querySelector('.er-btn:'+['','first','nth-child(2)','last'][['fills','neutral','drains'].indexOf(v)+1]||null);
+          if(v==='fills') row.querySelectorAll('.er-btn')[0].classList.add('fills');
+          else if(v==='neutral') row.querySelectorAll('.er-btn')[1].classList.add('neutral');
+          else if(v==='drains') row.querySelectorAll('.er-btn')[2].classList.add('drains');
+        }
+      }
+    });
+    BOUNDARIES.forEach((_,i)=>{
+      const v=localStorage.getItem(`ajr-s06-br-${i}`);
+      if(v){
+        const row=document.querySelectorAll('#boundary-list .boundary-row')[i];
+        if(row){
+          if(v==='holding') row.querySelectorAll('.br-btn')[0].classList.add('holding');
+          else if(v==='slipping') row.querySelectorAll('.br-btn')[1].classList.add('slipping');
+        }
+      }
+    });
+  }catch(e){}
+}
+
+function show(i){
+  document.querySelectorAll('.panel').forEach((p,n)=>p.classList.toggle('active',n===i));
+  document.querySelectorAll('.nav-tab').forEach((t,n)=>t.classList.toggle('active',n===i));
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+function updateProg(){
+  const keys=['ref-q5','del-m1','sus-commitment'];
+  let done=keys.filter(k=>{const el=document.querySelector(`[data-key="${k}"]`);return el&&el.value.trim();}).length;
+  const pct=Math.round(done/3*100);
+  document.getElementById('op-fill').style.width=pct+'%';
+  document.getElementById('op-count').textContent=done+' of 3 resources';
+  document.getElementById('hdr-pct').textContent=pct+'%';
+}
+let st;
+function save(){
+  clearTimeout(st);st=setTimeout(()=>{
+    const s={};
+    document.querySelectorAll('[data-key]').forEach(el=>s[el.dataset.key]=el.value);
+    localStorage.setItem('ajr-s06',JSON.stringify(s));
+    const t=document.getElementById('toast');t.classList.add('show');setTimeout(()=>t.classList.remove('show'),1800);
+    updateProg();
+  },500);
+}
+function load(){
+  try{
+    const s=JSON.parse(localStorage.getItem('ajr-s06')||'{}');
+    Object.entries(s).forEach(([k,v])=>{
+      const el=document.querySelector(`[data-key="${k}"]`);if(el)el.value=v;
+    });
+    updateSlider();updateSustain();updateProg();
+  }catch(e){}
+}
+document.querySelectorAll('[data-key]').forEach(el=>el.addEventListener('input',save));
+buildEnergy();buildBoundaries();load();loadInteractives();
+</script>
+</body>
+</html>
